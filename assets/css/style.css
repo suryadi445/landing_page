@@ -1,0 +1,263 @@
+body {
+	overflow-x: hidden;
+}
+
+/* halaman home */
+
+/* section jumbotron */
+#jumbotron_home {
+	height: 550px;
+}
+
+#icon {
+	position: relative;
+	right: 115px;
+}
+
+.gambar_background {
+	position: relative;
+	bottom: 120px;
+	height: 600px;
+	width: 1250px;
+	z-index: -1;
+	border-bottom: 4px solid rgb(63, 255, 0);
+}
+
+#garis_vr {
+	border-left: 3px solid rgb(255, 255, 255);
+	height: 115px;
+	position: relative;
+	left: 70px;
+	bottom: 390px;
+}
+
+.row_jt {
+	position: relative;
+	bottom: 400px;
+	left: 30px;
+
+}
+
+.read_more {
+	position: relative;
+	right: 25px;
+	top: 20px;
+	border-radius: 0%;
+}
+
+#jumbotron_home ul li a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* akhir section jumbotron */
+
+
+/* navbar */
+#navbar_search {
+	position: relative;
+	top: 40px;
+	right: 150px;
+}
+
+#navbar_user {
+	position: relative;
+	bottom: 20px;
+	right: 90px;
+}
+
+/* akhir navbar */
+
+/* awal id main_home */
+#main_home {
+	height: 1250px;
+}
+
+#main_home .the_latest h4 {
+	height: 60px;
+	position: relative;
+	left: 20px;
+	margin-right: 500px;
+	color: green;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+#main_home .garis_vr {
+	border-bottom: 3px solid green;
+	width: 90px;
+	position: relative;
+	left: 160px;
+	top: 105px;
+}
+
+#menu_burger {
+	padding-top: 5px;
+}
+
+.bcg_menu_burger {
+	text-align: center;
+	background-color: green;
+	width: 115px;
+	padding-left: 0;
+	position: relative;
+	right: 115px;
+	top: 60px;
+	height: 50px;
+}
+
+#main_home .kartu {
+	height: 1050px;
+}
+
+#main_home .garis_vr2 {
+	border-bottom: 2px solid green;
+	width: 15px;
+	position: relative;
+	top: 8px;
+}
+
+#main_home ol {
+	counter-reset: item;
+	list-style-type: none;
+}
+
+#main_home li {
+	display: block;
+}
+
+#main_home li:before {
+	content: counter(item, decimal-leading-zero) " ";
+	counter-increment: item;
+	font-weight: bold;
+}
+
+#main_home ol li a {
+	color: black;
+	text-decoration: none;
+}
+
+#main_home ol li a:hover {
+	color: blue;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.kartu .card .card-body h5 {
+	color: green;
+	width: 200px;
+}
+
+.kartu .card .card-body p {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.card {
+	border: 0;
+}
+
+.logo_mssg {
+	position: relative;
+	top: 230px;
+	left: 300px;
+}
+
+/* akhir main home */
+
+/* sidebar  */
+#gambar_sidebar {
+	position: relative;
+	right: 60px;
+	bottom: 40px;
+	height: 50px;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #777777;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	color: black;
+	bottom: 0;
+	left: -55px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.bahasa {
+	position: relative;
+	top: 190px;
+}
+
+/* akhir sidebar */
+
+/* halaman detail */
+.image_details {
+	width: 800px;
+	height: 300px;
+}
+
+.image_detail2 {
+	width: 250px;
+	height: 150px;
+}
+
+
+/* akhir detail */
+
+/* footer */
+footer {
+	margin-top: 100px;
+	height: 350px;
+	background-color: rgb(153, 124, 103);
+}
+
+#basic-addon2 {
+	position: relative;
+	right: 80px;
+	background-color: rgb(75, 221, 75);
+	color: white;
+	z-index: 99;
+	border-end-end-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+footer hr {
+	position: relative;
+	border: 1px solid white;
+	top: 16px;
+}
+
+.copy_right {
+	background-color: rgb(75, 221, 75);
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 10px;
+	/* height: 40px; */
+}
+
+/* akhir footer */
