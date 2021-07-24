@@ -9,9 +9,16 @@ body {
 	height: 550px;
 }
 
+#jumbotron_home .bg-transparent .row {
+	position: relative;
+	top: 50px;
+}
+
 #icon {
 	position: relative;
 	right: 115px;
+	width: 90px;
+	height: 100px;
 }
 
 .gambar_background {
@@ -28,21 +35,20 @@ body {
 	height: 115px;
 	position: relative;
 	left: 70px;
-	bottom: 390px;
+	bottom: 340px;
 }
 
 .row_jt {
 	position: relative;
 	bottom: 400px;
 	left: 30px;
-
 }
 
-.read_more {
+#jumbotron_home ul li {
 	position: relative;
-	right: 25px;
-	top: 20px;
-	border-radius: 0%;
+	right: 60px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #jumbotron_home ul li a {
@@ -52,34 +58,19 @@ body {
 
 /* akhir section jumbotron */
 
-
-/* navbar */
-#navbar_search {
-	position: relative;
-	top: 40px;
-	right: 150px;
-}
-
-#navbar_user {
-	position: relative;
-	bottom: 20px;
-	right: 90px;
-}
-
-/* akhir navbar */
-
 /* awal id main_home */
 #main_home {
-	height: 1250px;
+	height: 850px;
 }
 
 #main_home .the_latest h4 {
 	height: 60px;
 	position: relative;
 	left: 20px;
+	bottom: 15px;
 	margin-right: 500px;
 	color: green;
-	margin-bottom: 10px;
+	margin-bottom: -20px;
 	margin-top: 30px;
 }
 
@@ -87,12 +78,8 @@ body {
 	border-bottom: 3px solid green;
 	width: 90px;
 	position: relative;
-	left: 160px;
-	top: 105px;
-}
-
-#menu_burger {
-	padding-top: 5px;
+	left: 270px;
+	top: 90px;
 }
 
 .bcg_menu_burger {
@@ -102,7 +89,7 @@ body {
 	padding-left: 0;
 	position: relative;
 	right: 115px;
-	top: 60px;
+	top: 40px;
 	height: 50px;
 }
 
@@ -159,7 +146,7 @@ body {
 
 .logo_mssg {
 	position: relative;
-	top: 230px;
+	top: 70px;
 	left: 300px;
 }
 
@@ -170,7 +157,7 @@ body {
 	position: relative;
 	right: 60px;
 	bottom: 40px;
-	height: 50px;
+	height: 90px;
 }
 
 .sidenav {
@@ -226,13 +213,12 @@ body {
 	height: 150px;
 }
 
-
 /* akhir detail */
 
 /* footer */
 footer {
-	margin-top: 100px;
-	height: 350px;
+	/* margin-top: 100px; */
+	height: 370px;
 	background-color: rgb(153, 124, 103);
 }
 
@@ -261,3 +247,10 @@ footer hr {
 }
 
 /* akhir footer */
+
+/* modal */
+
+#gambar_modal {
+	width: 465px;
+	height: 250px;
+}
