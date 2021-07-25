@@ -230,7 +230,19 @@ footer {
 	z-index: 99;
 	border-end-end-radius: 30px;
 	border-top-right-radius: 30px;
+	width: 83px;
 }
+
+/* .btn_loading {
+	position: relative;
+	right: 80px;
+	background-color: rgb(75, 221, 75);
+	color: white;
+	z-index: 99;
+	border-end-end-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 83px;
+} */
 
 footer hr {
 	position: relative;

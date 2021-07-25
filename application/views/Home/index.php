@@ -199,6 +199,9 @@
                                         <input type="text" class="form-control rounded-pill" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2" name="input" id="input_email">
                                         <div class="input-group-append">
                                             <span type="button" class="input-group-text" id="basic-addon2">Sign Up</span>
+                                            <!-- <button class="btn btn-success btn_loading d-none" type="button" disabled>
+                                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            </button> -->
                                         </div>
                                     </div>
                                     <div class="text-danger error mt-n3 font-weight-bold"></div>
