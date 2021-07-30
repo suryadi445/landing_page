@@ -81,7 +81,9 @@
                             <div class="card">
                                 <img src="<?= base_url('assets/images/martabak_manis.jpg') ?>" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">Martabak Manis</h5>
+                                    <div class="row justify-content-center">
+                                        <h5 class="text-center">Martabak Manis</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +91,9 @@
                             <div class="card">
                                 <img src="<?= base_url('assets/images/nasi_goreng.jpg') ?>" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">Nasi Goreng</h5>
+                                    <div class="row justify-content-center">
+                                        <h5 class="text-center">Nasi Goreng</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +101,9 @@
                             <div class="card">
                                 <img src="<?= base_url('assets/images/sate_ayam.jpg') ?>" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">Sate Ayam</h5>
+                                    <div class="row justify-content-center">
+                                        <h5 class="text-center">Sate Ayam</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +111,9 @@
                             <div class="card">
                                 <img src="<?= base_url('assets/images/soto_ayam.jpg') ?>" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">Soto Ayam</h5>
+                                    <div class="row justify-content-center">
+                                        <h5 class="text-center">Soto Ayam</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +144,7 @@
                                         <hr>
                                         <li><a href="" data-toggle="modal" data-target="#modal_menu" class="link_menu" data-menu="mie kuah" data-gambar="mie_kuah.jpg">Mie Kuah</a></li>
                                         <hr>
-                                        <li><a href="" data-toggle="modal" data-target="#modal_menu" class="link_menu" data-menu="mie gpreng" data-gambar="mie_goreng.jpg">Mie Goreng</a></li>
+                                        <li><a href="" data-toggle="modal" data-target="#modal_menu" class="link_menu" data-menu="mie goreng" data-gambar="mie_goreng.jpg">Mie Goreng</a></li>
                                         <hr>
                                         <li><a href="" data-toggle="modal" data-target="#modal_menu" class="link_menu" data-menu="tongseng" data-gambar="tongseng_kambing.jpg">Tongseng</a></li>
                                         <hr>
@@ -204,7 +212,7 @@
                                             </button> -->
                                         </div>
                                     </div>
-                                    <div class="text-danger error mt-n3 font-weight-bold"></div>
+                                    <div class="error mt-n3 font-weight-bold"></div>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +248,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="modal_menu" tabindex="-1" aria-labelledby="nama_modal" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-sm my_modal">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title text-capitalize text-warning" id="nama_modal"></h5>

@@ -1,5 +1,6 @@
 body {
 	overflow-x: hidden;
+	font-family: cambria, Arial, Helvetica, sans-serif;
 }
 
 /* halaman home */
@@ -145,9 +146,8 @@ body {
 }
 
 .logo_mssg {
-	position: relative;
-	top: 70px;
-	left: 300px;
+	float: right;
+	margin-right: 20px;
 }
 
 /* akhir main home */
@@ -265,4 +265,144 @@ footer hr {
 #gambar_modal {
 	width: 465px;
 	height: 250px;
+}
+
+/* media query */
+/* smartphone */
+@media (max-width: 575.98px) {
+	body {
+		/* overflow-x: hidden; */
+		/* width: 800px; */
+		font-family: cambria, Arial, Helvetica, sans-serif;
+	}
+
+	#jumbotron_home {
+		height: 400px;
+	}
+
+	#jumbotron_home img {
+		height: 400px;
+	}
+
+	#jumbotron_home .bg-transparent h1 {
+		font-size: 26px;
+		position: relative;
+		bottom: 50px;
+		/* right: 50px; */
+	}
+
+	#jumbotron_home .bg-transparent h3 {
+		font-size: 18px;
+		position: relative;
+		bottom: 60px;
+		/* right: 50px; */
+	}
+
+	#jumbotron_home .bg-transparent small {
+		font-size: 10px;
+		position: relative;
+		bottom: 65px;
+		/* right: 50px; */
+	}
+
+	#jumbotron_home .bg-transparent span {
+		visibility: hidden;
+	}
+
+	#main_home {
+		position: relative;
+		bottom: 120px;
+		height: 1950px;
+	}
+
+	#main_home .the_latest h4 {
+		font-size: 18px;
+	}
+
+	.the_latest .garis_vr {
+		visibility: hidden;
+	}
+
+	/* footer */
+	footer {
+		height: 550px;
+	}
+
+	footer .error {
+		color: rgb(225, 225, 225);
+	}
+
+	/* sweet alert */
+	.swal2-popup {
+		max-width: 300px !important;
+		max-height: 340px !important;
+		font-size: 12px !important;
+	}
+
+	/* modal */
+	.my_modal {
+		max-width: 340px !important;
+		max-height: 340px !important;
+		font-size: 12px !important;
+	}
+
+	.modal-body img {
+		width: 305px !important;
+	}
+}
+
+/* tab */
+@media (min-width: 576px) and (max-width: 991.98px) {
+	body {
+		font-family: cambria, Arial, Helvetica, sans-serif;
+	}
+
+	#jumbotron_home .bg-transparent h3 {
+		font-size: 24px;
+		position: relative;
+		top: 60px;
+		right: 200px;
+	}
+
+	#jumbotron_home .bg-transparent small {
+		font-size: 16px;
+		position: relative;
+		top: 30px;
+	}
+
+	/* main home */
+	#main_home {
+		height: 1450px;
+	}
+
+	.logo_mssg {
+		position: relative;
+		/* right: 400px; */
+	}
+
+	footer {
+		height: 550px;
+	}
+
+	/* sweet alert */
+	.swal2-popup {
+		max-width: 300px !important;
+		max-height: 340px !important;
+		font-size: 12px !important;
+		/* position: relative;
+		right: 150px; */
+	}
+
+	/* modal */
+	.my_modal {
+		max-width: 340px !important;
+		max-height: 340px !important;
+		font-size: 12px !important;
+		/* position: relative;
+		right: 150px; */
+	}
+
+	.modal-body img {
+		width: 305px !important;
+	}
 }
